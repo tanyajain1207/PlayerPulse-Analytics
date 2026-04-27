@@ -31,10 +31,12 @@ A hypothetical mobile game studio observed high initial installs but stagnating 
 3. Open the `PlayerPulse_Dashboard.pbix` (or view the PDF) to explore the insights.
 
 ## 📂 Repository Structure
-* `data_generator.py`: Python engine for telemetry modeling.
-* `retention_logic.sql`: SQL View architecture for cohort analysis.
-* `funnel_logic.sql`: Query logic for onboarding stage conversion.
-* `PlayerPulse_Dashboard.pdf`: High-resolution export of the interactive BI tool.
+* `data.py`: Python engine for telemetry data modeling.
+* `db_setup.py`: Script for initializing the database schema.
+* `retention_analysis.sql`: SQL View architecture for cohort analysis.
+* `funnel_analysis.sql`: Query logic for onboarding stage conversion.
+* `playerpulse_dashboard.pdf`: The Power BI dashboard project file.
+* `Dashboard_Screenshot.png`: High-resolution view of the interactive BI tool. *(Note: Make sure to upload this!)*
 
 ---
 **Author:** Tanya Jain  
